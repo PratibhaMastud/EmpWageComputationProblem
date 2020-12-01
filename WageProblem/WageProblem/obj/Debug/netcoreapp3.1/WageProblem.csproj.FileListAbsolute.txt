@@ -1,0 +1,13 @@
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\bin\Debug\netcoreapp3.1\WageProblem.exe
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\bin\Debug\netcoreapp3.1\WageProblem.deps.json
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\bin\Debug\netcoreapp3.1\WageProblem.runtimeconfig.json
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\bin\Debug\netcoreapp3.1\WageProblem.runtimeconfig.dev.json
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\bin\Debug\netcoreapp3.1\WageProblem.dll
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\bin\Debug\netcoreapp3.1\WageProblem.pdb
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\obj\Debug\netcoreapp3.1\WageProblem.csprojAssemblyReference.cache
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\obj\Debug\netcoreapp3.1\WageProblem.AssemblyInfoInputs.cache
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\obj\Debug\netcoreapp3.1\WageProblem.AssemblyInfo.cs
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\obj\Debug\netcoreapp3.1\WageProblem.csproj.CoreCompileInputs.cache
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\obj\Debug\netcoreapp3.1\WageProblem.dll
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\obj\Debug\netcoreapp3.1\WageProblem.pdb
+C:\Users\prattii\Desktop\EmployeeWageComputationProblem\WageProblem\WageProblem\obj\Debug\netcoreapp3.1\WageProblem.genruntimeconfig.cache
