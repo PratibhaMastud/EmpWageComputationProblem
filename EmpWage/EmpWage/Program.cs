@@ -9,13 +9,15 @@ namespace EmpWage
             Console.WriteLine("Hello World!");
             dailyEmployeeWage();
         }
-        public static int dailyEmployeeWage()
-        {
+        public static void monthWage()
+            {
             int wagePerHour = 20;
             int dayHour = 8;
             int dailyEmployeeWage = wagePerHour * dayHour;
-            Console.WriteLine("Daily Employee Wage is : {0}", dailyEmployeeWage);
-            return dailyEmployeeWage;
-        }
+            int workiDayInMonth = 20;
+            int monthWage = workiDayInMonth * dailyWage;
+                Console.WriteLine(" Employee Wage for Monthis : {0}", monthWage);
+            }
+        
     }
 }
