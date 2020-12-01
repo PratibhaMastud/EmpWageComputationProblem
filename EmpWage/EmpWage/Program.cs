@@ -4,61 +4,38 @@ namespace EmpWage
 {
     class Program
     {
+		public const int ispartTime = 1;
+		public const int isFullTime = 2;
+		public const int empRatePerHour = 20;
+		public const int noOfWorkingDays = 2;
+		public const int maxHoursInMonth = 10;
+
         static void Main(string[] args)
 		{
-			Console.WriteLine("Welcome Employee Wage Computation");
-			while (true)
+			int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
+
+			while(totalEmpHrs <= maxHoursInMonth && totalWorkingDays < noOfWorkingDays)
 			{
-				Console.WriteLine("1.Check Employee Attendence\t 2.Daily Employee Wage\t 3.Part Time Wage\t 4.Empoyee Month Wage\t 5.Daily To Daily Employee Wage");
-				int choice = Convert.ToInt32(Console.ReadLine());
-				switch (choice)
+				totalWorkingDays++;
+				Random random = new Random();
+				int empCheck = random.Next(0,3);
+				switch(empCheck)
 				{
-					case 1:
-						Random rd = new Random();
-						int rand_num = rd.Next(0, 1);
-						checkEmployeeAttendence(rand_num);
+					case ispartTime:
+						empHrs = 4;
 						break;
-					case 2:
-						dailyEmployeeWage();
+					case isFullTime:
+						empHrs = 8;
 						break;
-					case 3:
-						partTimeWage();
-						break;
-					case 4:
-						monthWage();
+					default:
+						empHrs = 0;
 						break;
 				}
+				totalEmpHrs += empHrs;
+				Console.WriteLine("Day{0}", totalWorkingDays,"Emp Hours{0}",empHrs);
 			}
-		}
-
-		public static void checkEmployeeAttendence(int num)
-		{
-			if (num == 1)
-				Console.WriteLine("Employee is Present");
-			else
-				Console.WriteLine("Employee is Not Present");
-		}
-		public static int dailyEmployeeWage()
-		{
-			int wagePerHour = 20;
-			int dayHour = 8;
-			int dailyEmployeeWage = wagePerHour * dayHour;
-			Console.WriteLine("Daily Employee Wage is : {0}", dailyEmployeeWage);
-			return dailyEmployeeWage;
-		}
-		public static void partTimeWage()
-		{
-			int wagePerHour = 20;
-			int partTimeHour = 8;
-			int partTimeWage = wagePerHour * partTimeHour;
-			Console.WriteLine("Part Time Employee Wage is : {0}", partTimeWage);
-		}
-		public static void monthWage()
-		{
-			int workiDayInMonth = 20;
-			int dailyWage = dailyEmployeeWage();
-			int monthWage = workiDayInMonth * dailyWage;
-			Console.WriteLine(" Employee Wage for Monthis : {0}", monthWage);
+			int totalEmpWage = totalEmpHrs * empRatePerHour;
+			Console.WriteLine("Total Emp Wage{0}",totalEmpWage);
 		}
 		
 	
